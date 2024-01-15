@@ -3,6 +3,7 @@
 This project is based on [openrndr-template](https://github.com/openrndr/openrndr-template)
 
 ![Demo Video](demo.gif)
+_FPS has been reduced to 30 for animated GIF; actual FPS is much higher_
 
 Application consist of two classes:
 
