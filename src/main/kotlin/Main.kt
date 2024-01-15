@@ -121,7 +121,6 @@ fun main() = application {
         var lastGeneration = false
         var lastRender = 0.0
 
-        extend(ScreenRecorder())
         extend {
             val fps = 1 / (seconds - lastRender)
             drawer.text("Generations: %d; FPS: %.0f".format(generations, fps), 20.0, 40.0)

@@ -2,7 +2,7 @@
 
 This project is based on [openrndr-template](https://github.com/openrndr/openrndr-template)
 
-![Demo Video](demo.mp4)
+![Demo Video](demo.gif)
 
 Application consist of two classes:
 
