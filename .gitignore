@@ -1,0 +1,11 @@
+application.log
+build
+out
+.idea
+.gradle
+video/
+screenshots/
+gui-parameters/
+ffmpegOutput.txt
+ShaderError.glsl
+
