@@ -1,7 +1,6 @@
 import org.openrndr.application
 import org.openrndr.color.ColorRGBa
 import org.openrndr.draw.RectangleBatchBuilder
-import org.openrndr.ffmpeg.ScreenRecorder
 import org.openrndr.shape.Rectangle
 
 private fun RectangleBatchBuilder.drawCell(x: Int, y: Int, alive: Boolean) {
@@ -136,9 +135,6 @@ fun main() = application {
 
             drawer.rectangles(batchBuilder.batch())
             lastRender = seconds
-
-            if (generations == 900)
-                application.exit()
         }
     }
 }
